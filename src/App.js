@@ -4,7 +4,7 @@ import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg";
 import "./App.css";
 
-const API_URL = "http://www.omdbapi.com?apikey=b6003d8a";
+const API_URL = "http://www.omdbapi.com?apikey=137c433";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -49,6 +49,7 @@ const App = () => {
           <h2>No movies found</h2>
         </div>
       )}
+      <p className="copy">copyright © 2022 TH-Raju®</p>
     </div>
   );
 };
